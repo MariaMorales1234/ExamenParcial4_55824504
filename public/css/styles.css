@@ -19,11 +19,8 @@ header {
 }
 
 nav {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid: 38px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 nav a {
