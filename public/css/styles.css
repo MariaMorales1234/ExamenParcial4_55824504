@@ -6,17 +6,24 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #fff;
 }
 
 header {
-    padding: 20px 8%;
-    border-bottom: 1px solid #ddd;
+    height: 682px;
+    width: 100%;
+    background-image: url("../img/Background-header.jpe");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid: 38px;
 }
 
 nav a {
@@ -25,7 +32,15 @@ nav a {
     color: #222;
 }
 
-.hero {
+nav h1 {
+    color: black;
+    font-size: 96px;
+    font-family: Matemasie;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.about-us {
     min-height: 70vh;
     padding: 80px 8%;
 
